@@ -1,0 +1,8 @@
+"""Program 26: Sum of list elements without sum()."""
+
+
+def sum_of_list(numbers):
+    total = 0
+    for n in numbers:
+        total += n
+    return total
